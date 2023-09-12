@@ -260,8 +260,7 @@ ul {
   max-width: 800px;
   position: relative;
   height: 450px;
-  /*   overflow: hidden;
- */
+  overflow: hidden;
 }
 
 .slide {
@@ -273,7 +272,7 @@ ul {
   height: 100%;
   transition: var(--transition);
 }
-.slide h5{
+.slide h5 {
   color: var(--primary-500);
   font-weight: 600;
 }
@@ -341,11 +340,21 @@ ul {
   .text {
     max-width: 45em;
   }
-  
-.next,
-.prev{
-  width: 2rem;
-  height: 2rem;
-  font-size: 1.5rem;
+
+  .next,
+  .prev {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
 }
+
+.quote {
+  max-width: 40rem;
+  margin: 0 auto;
 }
+
+/* .next-slide {
+  transform: translateX(100%);
+}
+ */
